@@ -9,7 +9,7 @@
 
 ## Lab 5.1 — Add TrustKeys L1 to MetaMask
 
-- **Địa chỉ ví / Wallet Address:** `0xB65B1b4632EF4876b6C1C1b4bFcB52267595D03f`
+- **Địa chỉ ví / Wallet Address:** `0x34A07f3a288720977823A6694280620Afb60ec63`
 - **Mạng đã thêm / Network Name:** TrustKeys L1 testnet
 - **RPC URL:** `https://l1testnet.trustkeys.network`
 - **Chain ID:** `11968`
@@ -96,15 +96,15 @@ Connected to TrustKeys L1  chainId=11968  head block=717634
 
 ## Lab 5.3 — Send a type-2 tx and decompose the fee
 
-- **Transaction Hash:** `0x5e6796d0ef53864bc0b82491137c39a2273d340ebfae8272f642b8e938f01826`
-- **Block Number:** `717635`
+- **Transaction Hash:** `0xb4757aaee194c6a04632323b0eca901be5516dd0c5ab44797e6caf1c3c23940c`
+- **Block Number:** `717637`
 
 Kết quả chạy script `decompose_fee.py` / Execution output of `decompose_fee.py`:
 
 ```text
 === LAB 5.3 - DECOMPOSE TYPE-2 TRANSACTION FEE ===
-Tx Hash:           0x5e6796d0ef53864bc0b82491137c39a2273d340ebfae8272f642b8e938f01826
-Block Number:      717635
+Tx Hash:           0xb4757aaee194c6a04632323b0eca901be5516dd0c5ab44797e6caf1c3c23940c
+Block Number:      717637
 Gas Used:          21,000
 Base Fee per Gas:  8 wei (0.000000008 gwei)
 Effective Price:   2,000,000,000 wei (2.000000000 gwei)

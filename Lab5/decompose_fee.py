@@ -13,7 +13,7 @@ try:
 except Exception:
     pass
 
-h = "0x5e6796d0ef53864bc0b82491137c39a2273d340ebfae8272f642b8e938f01826" #id giao dich,len metamask để đọc chi tiết giao dịch,so sánh với kqua true khi chạy code
+h = "0xb4757aaee194c6a04632323b0eca901be5516dd0c5ab44797e6caf1c3c23940c" #id giao dich,len metamask để đọc chi tiết giao dịch,so sánh với kqua true khi chạy code
 rcpt = w3.eth.get_transaction_receipt(h)
 tx   = w3.eth.get_transaction(h)
 blk  = w3.eth.get_block(rcpt["blockNumber"])
